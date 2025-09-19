@@ -8,7 +8,7 @@
 
 using namespace std;
 
-
+//function that makes change color of the words
 void setColor(int color) {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, color);
@@ -291,32 +291,7 @@ class bot : public classe {
 
 };
 
-
-class Arcere : public classe {
-    private:
-    random_device RA;
-    mt19937 gen6;
-    public:
-    int healt = 340;
-    string N_classe = "Archer";
-    double S = 7;
-    string name() override {
-        return this->N_classe;
-    }
-
-    int vita() override {
-        return this->healt;
-    }
-
-    int attacco() override {
-        setColor(5);
-        cout << "TRACE ON" << endl;
-        uniform_int_distribution <int> ATK (100,200);
-        cout << "1 attacco " << ATK << endl;  
-    }
-};
-
-//variabili globali
+//global variable
 string nome;
 
 
@@ -581,4 +556,5 @@ int main() {
     std::cout << "4. Angelo" << endl;
     scelta();
 }
+
  

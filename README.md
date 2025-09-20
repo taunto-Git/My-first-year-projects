@@ -5,5 +5,6 @@ these are all the major project i did in my first 8-9 months of coding, im still
 the comments and the messages are written in my main languange (italian) but soon im going to translate them to english
 
 #used frameworks/libraries
-C++-> windows.h/random/iomanip/vectors
+C++-> windows.h/random/iomanip/vectorsù
+
 python 3.13 -> pyautogui/tkinter/time/os

@@ -23,7 +23,7 @@ int check_int(string frase) {
 
 float check_float(string frase) {
 	float test;
-	cout << "frase" << endl;
+	cout << frase << endl;
 	while (true)
 	{
 		cin >> test;
@@ -49,7 +49,7 @@ double check_double(string frase) {
 		if (cin.fail()) {
         	(cin.clear());
         	cin.ignore(1000,'\n');
-        	cout << "valore impossibile" << endl;
+        	cout << "not a valid double" << endl;
 		}
 		else {
 			break;
@@ -76,3 +76,4 @@ char check_char(string frase) {
 	return test;
 	
 }
+

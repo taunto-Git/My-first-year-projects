@@ -8,7 +8,7 @@ the comments and the messages are written in my main languange (italian) but soo
 
 C++-> windows.h/random/iomanip/vector
 
-python 3.13 -> pyautogui/tkinter/time/os
+python 3.13 -> pyautogui/tkinter/time/os/pyautogui
 
 # check_value library:
 that is a small but useful library that can shorten your code, instead of doing the usual cout/cin that can cause bugs if the user puts a different type of value with just one line you do all the three things but how exactly works?
